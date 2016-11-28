@@ -1,0 +1,21 @@
+{
+  "name": "CustomerReviews",
+  "authors": [
+    "MarkJamesHoward <markjameshoward@hotmail.co.uk>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "polymer": "Polymer/polymer#2.0-preview"
+  }
+}
