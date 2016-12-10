@@ -52,7 +52,7 @@
                     <i class="fa fa-quote-right"></i>
                 </div>
                 <template is="dom-repeat" items="{{items}}">
-                    jk
+                    *
                     <iron-icon icon="chevron-left"></iron-icon>
                 </template>
             </div>
@@ -92,11 +92,11 @@ class CustomerReview extends Polymer.Element {
 
     connectedCallback() {
         super.connectedCallback();
-
+        this.items = [];
          console.log(this.rating);
         for(let i=0; i<this.rating; i++ ) {
             console.log('added rating');
-            this.ratings.push(i);
+            this.items.push(i);
         }
     }
 }
